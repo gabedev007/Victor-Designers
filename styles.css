@@ -364,6 +364,39 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: var(--primary-gold);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: var(--font-primary);
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list li {
+    color: var(--secondary-gold);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.4;
+}
+
+.services-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-gold);
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 /* Contact Section */

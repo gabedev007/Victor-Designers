@@ -1,0 +1,24 @@
+{
+  "name": "victor-designers",
+  "version": "1.0.0",
+  "description": "Portfolio Designer - Victor Designer website with Vercel Analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabedev007/Victor-Designers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabedev007/Victor-Designers/issues"
+  },
+  "homepage": "https://github.com/gabedev007/Victor-Designers#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
